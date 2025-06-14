@@ -1,0 +1,12 @@
+{
+    "nome": "Julio",
+    "idade": 30,
+    "profissao": "Desenvolvedor",
+    "habilidades": ["JavaScript", "Node.js", "React"],
+    "endereco": {
+        "rua": "Rua das Flores",
+        "numero": 123,
+        "cidade": "São Paulo"
+    },
+    "ativo": true
+}
