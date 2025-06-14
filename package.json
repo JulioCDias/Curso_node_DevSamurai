@@ -1,0 +1,11 @@
+{
+  "name": "Curso_node_DevSamurai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JulioCDias/Curso_node_DevSamurai.git",
+  "author": "Julio Cesar <juliozulu2008@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
