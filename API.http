@@ -1,4 +1,10 @@
 ### Exemplo de requisição GET
+GET http://localhost:3000/
+Accept: application/json
+
+###
+
+### Exemplo de requisição GET
 GET http://localhost:3000/customers
 Accept: application/json
 
