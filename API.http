@@ -1,35 +1,35 @@
 ### Exemplo de requisição GET
-GET http://localhost:3000/
+GET http://localhost:3000/customers
 Accept: application/json
 
 ###
 
 ###
-GET http://localhost:3000/hello/julio
+GET http://localhost:3000/customers/1
 Accept: application/json
 
 ### Exemplo de requisição POST
-POST http://localhost:3000/usuarios
+POST http://localhost:3000/customers
 Content-Type: application/json
 
 {
     "nome": "João",
-    "email": "joao@email.com"
+    "site": "joao@email.com"
 }
 
 ###
 
 ### Exemplo de requisição PUT
-PUT http://localhost:3000/usuarios/1
+PUT http://localhost:3000/customers/1
 Content-Type: application/json
 
 {
-    "nome": "João Silva",
-    "email": "joaosilva@email.com"
+    "nome": "João Silva Do Brasil",
+    "site": "joaosilva@email.com"
 }
 
 ###
 
 ### Exemplo de requisição DELETE
-DELETE http://localhost:3000/usuarios/1
+DELETE http://localhost:3000/customers/1
 Accept: application/json
